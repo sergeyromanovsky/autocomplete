@@ -6,7 +6,7 @@ import {
   QueryKey,
 } from "@tanstack/react-query";
 import * as React from "react";
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import { toast } from "sonner";
 
 const defaultQueryFn = async ({ queryKey }: { queryKey: QueryKey }) => {

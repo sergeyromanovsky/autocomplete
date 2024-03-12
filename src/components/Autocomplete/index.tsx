@@ -62,7 +62,7 @@ const Autocomplete = ({
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[300px] p-0">
-        <Command>
+        <Command shouldFilter={false}>
           <CommandInput
             placeholder={inputPlaceholder}
             value={inputValue}

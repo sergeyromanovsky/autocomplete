@@ -131,6 +131,8 @@ const CommandLoading = React.forwardRef<
   <CommandPrimitive.Loading className={className} {...props} />
 ));
 
+CommandLoading.displayName = CommandPrimitive.Loading.displayName;
+
 CommandItem.displayName = CommandPrimitive.Item.displayName;
 
 const CommandShortcut = ({

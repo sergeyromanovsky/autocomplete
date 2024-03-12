@@ -20,17 +20,12 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Assessment
 
-To learn more about Next.js, take a look at the following resources:
+You are to implement an accessible autocomplete input using Shadcn, Radix UI, and Tailwind CSS. You may optionally use cmdk as well.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You must use either Remix or Next.js, TypeScript, and React Query v5 to implement your example project that demonstrates that your autocomplete input component works as intended.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The example project must demonstrate that the autocomplete input performs queries via. HTTP requests managed by React Query v5 against a request handler you define in your example project.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+When a query is specified to the autocomplete input, a dropdown list should immediately show with the closest matches to the query specified. Some sort of loading indicator (i.e. a spinner or skeleton) should be shown in the dropdown list while any queries are being performed.

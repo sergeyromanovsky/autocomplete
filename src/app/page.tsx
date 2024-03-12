@@ -8,7 +8,7 @@ export default function Home() {
   const [value, setValue] = useState("");
   const [inputValue, setInputValue] = useState("");
 
-  const debouncedSearchQuery = useDebounce(inputValue, 300);
+  const debouncedSearchQuery = useDebounce(inputValue, 150);
 
   const { data, isFetching } = useQuery<Option[]>({
     queryKey: [`/products?q=${debouncedSearchQuery}`],
